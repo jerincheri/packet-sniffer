@@ -1,0 +1,12 @@
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  username: "jerinc18@gmail.com"
+  password: "Hailmary@123"  # Use App Password, not regular password
+  from_addr: "jerincc18@gmail.com"
+  to_addr: "recipient-email@example.com"
+
+alerts:
+  flooding_threshold: 10    # Changed from 1000 to 10
+  port_scan_threshold: 3    # Changed from 10 to 3
+  time_window: 5            # Changed from 10 to 5
